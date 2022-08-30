@@ -2,7 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-		<title>Pagina Teste</title>
+		<title>Formulario</title>
 
 		<link rel="stylesheet" href="produto2.css">
 	</head>
@@ -19,8 +19,17 @@
 		<label for="telefone">Telefone</label>
         <input type="text" id="telefone">
 
-        <label for="radio-email">Email</label>
-		<input type="radio" value="email" id="radio-email">
+        <label for="mensagem">Mensagem</label>
+		<textarea cols="70" rows="10" id="mensagem"></textarea>
+
+        		<label for="radio-email">Email</label>
+				<input type="radio" name="contato" value="email" id="radio-email">
+
+				<label for="radio-telefone">Telefone</label>
+				<input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+				<label for="radio-whatsapp">WhatsApp</label>
+				<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
 
 
         <input type="submit" value ="Enviar formulário">
